@@ -2,7 +2,7 @@
 I'm Semi Koh, a frontend developer.
 
 ## Career
-- NHN Injeinc — Frontend Developer (2024.04 ~ Present)
+- NHN Injeinc — Frontend Developer (2025.04 ~ Present)
 - Tmax Gaia — Frontend Developer (2023.09 ~ 2025.03)
 
 ## Open Source Contributions
