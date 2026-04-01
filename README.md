@@ -13,7 +13,7 @@ I'm Semi Koh, a frontend developer.
   - 🔄 Parse `NODE_OPTIONS` when `env` option is not provided [#62306](https://github.com/nodejs/node/pull/62306)
 
 - [Mantine](https://github.com/mantinedev/mantine)
-  - ✅ Correct `Badge` `circle` rendering when combined with `defaultProps.radius` [#8465](https://github.com/mantinedev/mantine/issues/8465)
+  - ✅ Correct `Badge` `circle` rendering when combined with `defaultProps.radius` [#8465](https://github.com/mantinedev/mantine/pull/8466)
 
 - [Slate.js](https://github.com/ianstormtaylor/slate)
   - ✅ Fix regression caused by missing `slate-dom` peer dependency alignment [#5976](https://github.com/ianstormtaylor/slate/pull/5976)
