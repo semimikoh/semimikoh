@@ -11,6 +11,11 @@ const repos = [
   { label: "Tiptap", owner: "ueberdosis", repo: "tiptap" },
 ];
 
+// 제외할 PR 번호 (owner/repo#number)
+const excludes = new Set([
+  "nodejs/node#62303",
+]);
+
 const headers = (token) => ({
   Authorization: `Bearer ${token}`,
   Accept: "application/vnd.github+json",
@@ -72,7 +77,8 @@ async function main() {
   const grouped = [];
 
   for (const { label, owner, repo } of repos) {
-    const prs = await fetchPRsForRepo(owner, repo, token);
+    const allPrs = await fetchPRsForRepo(owner, repo, token);
+    const prs = allPrs.filter((pr) => !excludes.has(`${owner}/${repo}#${pr.number}`));
     if (prs.length === 0) continue;
 
     // 오래된 PR이 먼저 오도록 정렬
