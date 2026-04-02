@@ -10,7 +10,6 @@ I'm Semi Koh, a frontend developer.
 <!-- OSS_CONTRIB_START -->
 - [Node.js](https://github.com/nodejs/node)
   - ✅ benchmark: fix incorrect base64 input in byteLength benchmark [#60841](https://github.com/nodejs/node/pull/60841)
-  - ❌ worker: parse NODE_OPTIONS when env option is not provided [#62303](https://github.com/nodejs/node/pull/62303)
   - 🔄 worker: parse NODE_OPTIONS when env option is not provided [#62306](https://github.com/nodejs/node/pull/62306)
   - ❌ assert: add partialDeepEqual to strict mode [#62332](https://github.com/nodejs/node/pull/62332)
 
