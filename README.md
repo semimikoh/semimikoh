@@ -16,6 +16,7 @@ I'm Semi Koh, a frontend developer.
 - [Mantine](https://github.com/mantinedev/mantine)
   - ✅ [@mantine/core] Badge: Fix circle prop with defaultProps.radius [#8466](https://github.com/mantinedev/mantine/pull/8466)
   - ✅ [@mantine/mcp-server] Fix stdio transport to comply with MCP spec [#8792](https://github.com/mantinedev/mantine/pull/8792)
+  - 🔄 fix(form): provide TS suggestions for path in clearFieldError, resetField, clearFieldDirty [#8810](https://github.com/mantinedev/mantine/pull/8810)
 
 - [Slate.js](https://github.com/ianstormtaylor/slate)
   - ✅ fix(slate-react): update slate-dom peer dependency to 0.119.0 [#5976](https://github.com/ianstormtaylor/slate/pull/5976)
