@@ -18,9 +18,12 @@ I'm Semi Koh, a frontend developer.
   - ✅ [@mantine/mcp-server] Fix stdio transport to comply with MCP spec [#8792](https://github.com/mantinedev/mantine/pull/8792)
   - 🔄 fix(form): provide TS suggestions for path in clearFieldError, resetField, clearFieldDirty [#8810](https://github.com/mantinedev/mantine/pull/8810)
 
-- [Slate.js](https://github.com/ianstormtaylor/slate)
-  - ✅ fix(slate-react): update slate-dom peer dependency to 0.119.0 [#5976](https://github.com/ianstormtaylor/slate/pull/5976)
-
 - [Tiptap](https://github.com/ueberdosis/tiptap)
   - 🔄 fix: prevent cursor jump during IME composition in colored text [#7626](https://github.com/ueberdosis/tiptap/pull/7626)
+
+- [Vite](https://github.com/vitejs/vite)
+  - 🔄 fix: skip fallback sourcemap generation for ?raw imports [#22148](https://github.com/vitejs/vite/pull/22148)
+
+- [Slate.js](https://github.com/ianstormtaylor/slate)
+  - ✅ fix(slate-react): update slate-dom peer dependency to 0.119.0 [#5976](https://github.com/ianstormtaylor/slate/pull/5976)
 <!-- OSS_CONTRIB_END -->
