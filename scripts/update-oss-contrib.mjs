@@ -7,8 +7,9 @@ const GITHUB_USERNAME = "semimikoh";
 const repos = [
   { label: "Node.js", owner: "nodejs", repo: "node" },
   { label: "Mantine", owner: "mantinedev", repo: "mantine" },
-  { label: "Slate.js", owner: "ianstormtaylor", repo: "slate" },
   { label: "Tiptap", owner: "ueberdosis", repo: "tiptap" },
+  { label: "Vite", owner: "vitejs", repo: "vite" },
+  { label: "Slate.js", owner: "ianstormtaylor", repo: "slate" },
 ];
 
 // 제외할 PR 번호 (owner/repo#number)
