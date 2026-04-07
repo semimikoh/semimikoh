@@ -12,12 +12,13 @@ I'm Semi Koh, a frontend developer.
   - ✅ benchmark: fix incorrect base64 input in byteLength benchmark [#60841](https://github.com/nodejs/node/pull/60841)
   - 🔄 worker: parse NODE_OPTIONS when env option is not provided [#62306](https://github.com/nodejs/node/pull/62306)
   - ❌ assert: add partialDeepEqual to strict mode [#62332](https://github.com/nodejs/node/pull/62332)
-  - 🔄 [v22.x backport] src: clamp WriteUtf8 capacity to INT_MAX in EncodeInto [#62621](https://github.com/nodejs/node/pull/62621)
+  - 🔄 [v22.x] src: clamp WriteUtf8 capacity to INT_MAX in EncodeInto [#62621](https://github.com/nodejs/node/pull/62621)
 
 - [Mantine](https://github.com/mantinedev/mantine)
   - ✅ [@mantine/core] Badge: Fix circle prop with defaultProps.radius [#8466](https://github.com/mantinedev/mantine/pull/8466)
   - ✅ [@mantine/mcp-server] Fix stdio transport to comply with MCP spec [#8792](https://github.com/mantinedev/mantine/pull/8792)
   - ✅ [@mantine/form] Fix missing TS suggestions for path in clearFieldError, resetField, clearFieldDirty [#8810](https://github.com/mantinedev/mantine/pull/8810)
+  - 🔄 [@docs] add Scroller styles API data [#8818](https://github.com/mantinedev/mantine/pull/8818)
 
 - [Tiptap](https://github.com/ueberdosis/tiptap)
   - 🔄 fix: prevent cursor jump during IME composition in colored text [#7626](https://github.com/ueberdosis/tiptap/pull/7626)
