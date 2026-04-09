@@ -21,6 +21,9 @@ I'm Semi Koh, a frontend developer.
   - ✅ [@docs] add Scroller styles API data [#8818](https://github.com/mantinedev/mantine/pull/8818)
   - ✅ [@mantine/tiptap] RichTextEditor: Fix invisible caret in empty task list items (#8819) [#8821](https://github.com/mantinedev/mantine/pull/8821)
 
+- [TanStack Query](https://github.com/TanStack/query)
+  - ✅ fix(query-core): clear timers when timer ID is 0 [#10401](https://github.com/TanStack/query/pull/10401)
+
 - [Tiptap](https://github.com/ueberdosis/tiptap)
   - 🔄 fix: prevent cursor jump during IME composition in colored text [#7626](https://github.com/ueberdosis/tiptap/pull/7626)
 
