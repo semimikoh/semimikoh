@@ -7,6 +7,7 @@ const GITHUB_USERNAME = "semimikoh";
 const repos = [
   { label: "Node.js", owner: "nodejs", repo: "node" },
   { label: "Mantine", owner: "mantinedev", repo: "mantine" },
+  { label: "TanStack Query", owner: "TanStack", repo: "query" },
   { label: "Tiptap", owner: "ueberdosis", repo: "tiptap" },
   { label: "Vite", owner: "vitejs", repo: "vite" },
   { label: "Slate.js", owner: "ianstormtaylor", repo: "slate" },
