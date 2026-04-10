@@ -23,6 +23,7 @@ I'm Semi Koh, a frontend developer.
 
 - [TanStack Query](https://github.com/TanStack/query)
   - ✅ fix(query-core): clear timers when timer ID is 0 [#10401](https://github.com/TanStack/query/pull/10401)
+  - 🔄 fix(vue-query-devtools): only register cleanup after mount [#10439](https://github.com/TanStack/query/pull/10439)
 
 - [Tiptap](https://github.com/ueberdosis/tiptap)
   - 🔄 fix: prevent cursor jump during IME composition in colored text [#7626](https://github.com/ueberdosis/tiptap/pull/7626)
