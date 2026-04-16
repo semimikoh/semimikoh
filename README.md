@@ -14,6 +14,7 @@ I'm Semi Koh, a frontend developer.
   - ❌ assert: add partialDeepEqual to strict mode [#62332](https://github.com/nodejs/node/pull/62332)
   - 🔄 [v22.x] src: clamp WriteUtf8 capacity to INT_MAX in EncodeInto [#62621](https://github.com/nodejs/node/pull/62621)
   - 🔄  doc,src,test: fix dead inspector help URL [#62745](https://github.com/nodejs/node/pull/62745)
+  - 🔄 src: fix crash in GetErrorSource() for invalid using syntax [#62770](https://github.com/nodejs/node/pull/62770)
 
 - [Mantine](https://github.com/mantinedev/mantine)
   - ✅ [@mantine/core] Badge: Fix circle prop with defaultProps.radius [#8466](https://github.com/mantinedev/mantine/pull/8466)
