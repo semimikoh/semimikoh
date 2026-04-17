@@ -22,6 +22,8 @@ I'm Semi Koh, a frontend developer.
   - ✅ [@mantine/form] Fix missing TS suggestions for path in clearFieldError, resetField, clearFieldDirty [#8810](https://github.com/mantinedev/mantine/pull/8810)
   - ✅ [@docs] add Scroller styles API data [#8818](https://github.com/mantinedev/mantine/pull/8818)
   - ✅ [@mantine/tiptap] RichTextEditor: Fix invisible caret in empty task list items (#8819) [#8821](https://github.com/mantinedev/mantine/pull/8821)
+  - 🔄 [@mantine/core] Fix SemiCircleProgress not being displayed [#8842](https://github.com/mantinedev/mantine/pull/8842)
+  - 🔄   [@mantine/core] ScrollArea: Fix scrollbar never visible with offsetScrollbars="present"                                                   [#8844](https://github.com/mantinedev/mantine/pull/8844)
 
 - [TanStack Query](https://github.com/TanStack/query)
   - ✅ fix(query-core): clear timers when timer ID is 0 [#10401](https://github.com/TanStack/query/pull/10401)
@@ -33,7 +35,7 @@ I'm Semi Koh, a frontend developer.
 - [Vite](https://github.com/vitejs/vite)
   - 🔄 fix: skip fallback sourcemap generation for ?raw imports [#22148](https://github.com/vitejs/vite/pull/22148)
   - ❌ fix(import-meta-glob): handle array syntax in bundled build path [#22172](https://github.com/vitejs/vite/pull/22172)
-  - 🔄 fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
+  - ✅ fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
 
 - [Slate.js](https://github.com/ianstormtaylor/slate)
   - ✅ fix(slate-react): update slate-dom peer dependency to 0.119.0 [#5976](https://github.com/ianstormtaylor/slate/pull/5976)
