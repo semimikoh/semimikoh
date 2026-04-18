@@ -15,6 +15,7 @@ I'm Semi Koh, a frontend developer.
   - 🔄 [v22.x] src: clamp WriteUtf8 capacity to INT_MAX in EncodeInto [#62621](https://github.com/nodejs/node/pull/62621)
   - 🔄  doc,src,test: fix dead inspector help URL [#62745](https://github.com/nodejs/node/pull/62745)
   - 🔄 src: fix crash in GetErrorSource() for invalid using syntax [#62770](https://github.com/nodejs/node/pull/62770)
+  - 🔄 assert: avoid expensive diff for large values [#62798](https://github.com/nodejs/node/pull/62798)
 
 - [Mantine](https://github.com/mantinedev/mantine)
   - ✅ [@mantine/core] Badge: Fix circle prop with defaultProps.radius [#8466](https://github.com/mantinedev/mantine/pull/8466)
@@ -36,6 +37,7 @@ I'm Semi Koh, a frontend developer.
   - 🔄 fix: skip fallback sourcemap generation for ?raw imports [#22148](https://github.com/vitejs/vite/pull/22148)
   - ❌ fix(import-meta-glob): handle array syntax in bundled build path [#22172](https://github.com/vitejs/vite/pull/22172)
   - ✅ fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
+  - 🔄 fix(css): preserve CSS modules linked from HTML in build [#22259](https://github.com/vitejs/vite/pull/22259)
 
 - [Slate.js](https://github.com/ianstormtaylor/slate)
   - ✅ fix(slate-react): update slate-dom peer dependency to 0.119.0 [#5976](https://github.com/ianstormtaylor/slate/pull/5976)
