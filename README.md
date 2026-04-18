@@ -22,7 +22,7 @@ I'm Semi Koh, a frontend developer.
   - ✅ [@mantine/form] Fix missing TS suggestions for path in clearFieldError, resetField, clearFieldDirty [#8810](https://github.com/mantinedev/mantine/pull/8810)
   - ✅ [@docs] add Scroller styles API data [#8818](https://github.com/mantinedev/mantine/pull/8818)
   - ✅ [@mantine/tiptap] RichTextEditor: Fix invisible caret in empty task list items (#8819) [#8821](https://github.com/mantinedev/mantine/pull/8821)
-  - 🔄 [@mantine/core] Fix SemiCircleProgress not being displayed [#8842](https://github.com/mantinedev/mantine/pull/8842)
+  - ✅ [@mantine/core] Fix SemiCircleProgress not being displayed [#8842](https://github.com/mantinedev/mantine/pull/8842)
   - 🔄   [@mantine/core] ScrollArea: Fix scrollbar never visible with offsetScrollbars="present"                                                   [#8844](https://github.com/mantinedev/mantine/pull/8844)
 
 - [TanStack Query](https://github.com/TanStack/query)
