@@ -13,7 +13,7 @@ I'm Semi Koh, a frontend developer.
   - 🔄 worker: parse NODE_OPTIONS when env option is not provided [#62306](https://github.com/nodejs/node/pull/62306)
   - ❌ assert: add partialDeepEqual to strict mode [#62332](https://github.com/nodejs/node/pull/62332)
   - 🔄 [v22.x] src: clamp WriteUtf8 capacity to INT_MAX in EncodeInto [#62621](https://github.com/nodejs/node/pull/62621)
-  - 🔄  doc,src,test: fix dead inspector help URL [#62745](https://github.com/nodejs/node/pull/62745)
+  - ✅  doc,src,test: fix dead inspector help URL [#62745](https://github.com/nodejs/node/pull/62745)
   - 🔄 src: fix crash in GetErrorSource() for invalid using syntax [#62770](https://github.com/nodejs/node/pull/62770)
   - 🔄 assert: avoid expensive diff for large values [#62798](https://github.com/nodejs/node/pull/62798)
 
@@ -38,6 +38,7 @@ I'm Semi Koh, a frontend developer.
   - ❌ fix(import-meta-glob): handle array syntax in bundled build path [#22172](https://github.com/vitejs/vite/pull/22172)
   - ✅ fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
   - 🔄 fix(css): preserve CSS modules linked from HTML in build [#22259](https://github.com/vitejs/vite/pull/22259)
+  - 🔄 fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
 
 - [Slate.js](https://github.com/ianstormtaylor/slate)
   - ✅ fix(slate-react): update slate-dom peer dependency to 0.119.0 [#5976](https://github.com/ianstormtaylor/slate/pull/5976)
