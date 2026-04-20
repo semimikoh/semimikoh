@@ -34,7 +34,7 @@ I'm Semi Koh, a frontend developer.
   - 🔄 fix: prevent cursor jump during IME composition in colored text [#7626](https://github.com/ueberdosis/tiptap/pull/7626)
 
 - [Vite](https://github.com/vitejs/vite)
-  - 🔄 fix: skip fallback sourcemap generation for ?raw imports [#22148](https://github.com/vitejs/vite/pull/22148)
+  - ✅ fix: skip fallback sourcemap generation for `?raw` imports [#22148](https://github.com/vitejs/vite/pull/22148)
   - ❌ fix(import-meta-glob): handle array syntax in bundled build path [#22172](https://github.com/vitejs/vite/pull/22172)
   - ✅ fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
   - 🔄 fix(css): preserve CSS modules linked from HTML in build [#22259](https://github.com/vitejs/vite/pull/22259)
