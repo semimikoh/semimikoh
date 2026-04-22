@@ -38,7 +38,7 @@ I'm Semi Koh, a frontend developer.
   - ❌ fix(import-meta-glob): handle array syntax in bundled build path [#22172](https://github.com/vitejs/vite/pull/22172)
   - ✅ fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
   - 🔄 fix(css): preserve CSS modules linked from HTML in build [#22259](https://github.com/vitejs/vite/pull/22259)
-  - 🔄 fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
+  - ✅ fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
   - 🔄 fix(resolve): fall back to module entry when browser entry is non-ESM in build [#22295](https://github.com/vitejs/vite/pull/22295)
 
 - [Slate.js](https://github.com/ianstormtaylor/slate)
