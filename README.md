@@ -16,6 +16,7 @@ I'm Semi Koh, a frontend developer.
   - ✅  doc,src,test: fix dead inspector help URL [#62745](https://github.com/nodejs/node/pull/62745)
   - 🔄 src: fix crash in GetErrorSource() for invalid using syntax [#62770](https://github.com/nodejs/node/pull/62770)
   - 🔄 assert: avoid expensive diff for large values [#62798](https://github.com/nodejs/node/pull/62798)
+  - 🔄 fs: fix glob early return skipping sibling entries [#62901](https://github.com/nodejs/node/pull/62901)
 
 - [Mantine](https://github.com/mantinedev/mantine)
   - ✅ [@mantine/core] Badge: Fix circle prop with defaultProps.radius [#8466](https://github.com/mantinedev/mantine/pull/8466)
@@ -24,7 +25,7 @@ I'm Semi Koh, a frontend developer.
   - ✅ [@docs] add Scroller styles API data [#8818](https://github.com/mantinedev/mantine/pull/8818)
   - ✅ [@mantine/tiptap] RichTextEditor: Fix invisible caret in empty task list items (#8819) [#8821](https://github.com/mantinedev/mantine/pull/8821)
   - ✅ [@mantine/core] Fix SemiCircleProgress not being displayed [#8842](https://github.com/mantinedev/mantine/pull/8842)
-  - 🔄   [@mantine/core] ScrollArea: Fix scrollbar never visible with offsetScrollbars="present"                                                   [#8844](https://github.com/mantinedev/mantine/pull/8844)
+  - ✅   [@mantine/core] ScrollArea: Fix scrollbar never visible with offsetScrollbars="present"                                                   [#8844](https://github.com/mantinedev/mantine/pull/8844)
 
 - [TanStack Query](https://github.com/TanStack/query)
   - ✅ fix(query-core): clear timers when timer ID is 0 [#10401](https://github.com/TanStack/query/pull/10401)
