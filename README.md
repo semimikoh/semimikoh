@@ -40,7 +40,7 @@ I'm Semi Koh, a frontend developer.
   - ✅ fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
   - 🔄 fix(css): preserve CSS modules linked from HTML in build [#22259](https://github.com/vitejs/vite/pull/22259)
   - ✅ fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
-  - 🔄 fix(resolve): fall back to module entry when browser entry is non-ESM in build [#22295](https://github.com/vitejs/vite/pull/22295)
+  - ❌ fix(resolve): fall back to module entry when browser entry is non-ESM in build [#22295](https://github.com/vitejs/vite/pull/22295)
 
 - [Slate.js](https://github.com/ianstormtaylor/slate)
   - ✅ fix(slate-react): update slate-dom peer dependency to 0.119.0 [#5976](https://github.com/ianstormtaylor/slate/pull/5976)
