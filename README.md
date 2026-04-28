@@ -20,7 +20,6 @@ I'm Semi Koh, a frontend developer.
 
 - [Mantine](https://github.com/mantinedev/mantine)
   - ✅ [@mantine/core] Badge: Fix circle prop with defaultProps.radius [#8466](https://github.com/mantinedev/mantine/pull/8466)
-  - ✅ [@mantine/mcp-server] Fix stdio transport to comply with MCP spec [#8792](https://github.com/mantinedev/mantine/pull/8792)
   - ✅ [@mantine/form] Fix missing TS suggestions for path in clearFieldError, resetField, clearFieldDirty [#8810](https://github.com/mantinedev/mantine/pull/8810)
   - ✅ [@docs] add Scroller styles API data [#8818](https://github.com/mantinedev/mantine/pull/8818)
   - ✅ [@mantine/tiptap] RichTextEditor: Fix invisible caret in empty task list items (#8819) [#8821](https://github.com/mantinedev/mantine/pull/8821)
@@ -41,6 +40,7 @@ I'm Semi Koh, a frontend developer.
   - 🔄 fix(css): preserve CSS modules linked from HTML in build [#22259](https://github.com/vitejs/vite/pull/22259)
   - ✅ fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
   - ❌ fix(resolve): fall back to module entry when browser entry is non-ESM in build [#22295](https://github.com/vitejs/vite/pull/22295)
+  - 🔄 fix(optimizer): pass oxc jsx options to transformSync in dependency scan                                                            [#22342](https://github.com/vitejs/vite/pull/22342)
 
 - [Slate.js](https://github.com/ianstormtaylor/slate)
   - ✅ fix(slate-react): update slate-dom peer dependency to 0.119.0 [#5976](https://github.com/ianstormtaylor/slate/pull/5976)
