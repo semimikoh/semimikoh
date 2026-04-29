@@ -80,7 +80,9 @@ async function main() {
 
   for (const { label, owner, repo } of repos) {
     const allPrs = await fetchPRsForRepo(owner, repo, token);
-    const prs = allPrs.filter((pr) => !excludes.has(`${owner}/${repo}#${pr.number}`));
+    const prs = allPrs
+      .filter((pr) => !excludes.has(`${owner}/${repo}#${pr.number}`))
+      .filter((pr) => pr.pull_request?.merged_at ?? pr.merged_at);
     if (prs.length === 0) continue;
 
     // 오래된 PR이 먼저 오도록 정렬
