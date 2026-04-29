@@ -10,14 +10,8 @@ I'm Semi Koh, a frontend developer.
 <!-- OSS_CONTRIB_START -->
 - [Node.js](https://github.com/nodejs/node)
   - ✅ benchmark: fix incorrect base64 input in byteLength benchmark [#60841](https://github.com/nodejs/node/pull/60841)
-  - 🔄 worker: parse NODE_OPTIONS when env option is not provided [#62306](https://github.com/nodejs/node/pull/62306)
-  - ❌ assert: add partialDeepEqual to strict mode [#62332](https://github.com/nodejs/node/pull/62332)
-  - 🔄 [v22.x] src: clamp WriteUtf8 capacity to INT_MAX in EncodeInto [#62621](https://github.com/nodejs/node/pull/62621)
   - ✅  doc,src,test: fix dead inspector help URL [#62745](https://github.com/nodejs/node/pull/62745)
   - ✅ src: fix crash in GetErrorSource() for invalid using syntax [#62770](https://github.com/nodejs/node/pull/62770)
-  - 🔄 assert: avoid expensive diff for large values [#62798](https://github.com/nodejs/node/pull/62798)
-  - 🔄 fs: fix glob early return skipping sibling entries [#62901](https://github.com/nodejs/node/pull/62901)
-  - 🔄 ffi: prevent premature GC of DynamicLibrary [#63024](https://github.com/nodejs/node/pull/63024)
 
 - [Mantine](https://github.com/mantinedev/mantine)
   - ✅ [@mantine/core] Badge: Fix circle prop with defaultProps.radius [#8466](https://github.com/mantinedev/mantine/pull/8466)
@@ -31,17 +25,10 @@ I'm Semi Koh, a frontend developer.
   - ✅ fix(query-core): clear timers when timer ID is 0 [#10401](https://github.com/TanStack/query/pull/10401)
   - ✅ fix(vue-query-devtools): only register cleanup after mount [#10439](https://github.com/TanStack/query/pull/10439)
 
-- [Tiptap](https://github.com/ueberdosis/tiptap)
-  - 🔄 fix: prevent cursor jump during IME composition in colored text [#7626](https://github.com/ueberdosis/tiptap/pull/7626)
-
 - [Vite](https://github.com/vitejs/vite)
   - ✅ fix: skip fallback sourcemap generation for `?raw` imports [#22148](https://github.com/vitejs/vite/pull/22148)
-  - ❌ fix(import-meta-glob): handle array syntax in bundled build path [#22172](https://github.com/vitejs/vite/pull/22172)
   - ✅ fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
-  - 🔄 fix(css): preserve CSS modules linked from HTML in build [#22259](https://github.com/vitejs/vite/pull/22259)
   - ✅ fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
-  - ❌ fix(resolve): fall back to module entry when browser entry is non-ESM in build [#22295](https://github.com/vitejs/vite/pull/22295)
-  - 🔄 fix(optimizer): pass oxc jsx options to transformSync in dependency scan                                                            [#22342](https://github.com/vitejs/vite/pull/22342)
 
 - [Slate.js](https://github.com/ianstormtaylor/slate)
   - ✅ fix(slate-react): update slate-dom peer dependency to 0.119.0 [#5976](https://github.com/ianstormtaylor/slate/pull/5976)
