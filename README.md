@@ -17,6 +17,7 @@ I'm Semi Koh, a frontend developer.
   - ✅ src: fix crash in GetErrorSource() for invalid using syntax [#62770](https://github.com/nodejs/node/pull/62770)
   - 🔄 assert: avoid expensive diff for large values [#62798](https://github.com/nodejs/node/pull/62798)
   - 🔄 fs: fix glob early return skipping sibling entries [#62901](https://github.com/nodejs/node/pull/62901)
+  - 🔄 ffi: prevent premature GC of DynamicLibrary [#63024](https://github.com/nodejs/node/pull/63024)
 
 - [Mantine](https://github.com/mantinedev/mantine)
   - ✅ [@mantine/core] Badge: Fix circle prop with defaultProps.radius [#8466](https://github.com/mantinedev/mantine/pull/8466)
