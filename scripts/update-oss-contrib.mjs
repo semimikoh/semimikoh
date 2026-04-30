@@ -58,7 +58,7 @@ function buildSection(grouped) {
   const lines = [];
 
   for (const group of grouped) {
-    lines.push(`- [${group.label}](https://github.com/${group.owner}/${group.repo})`);
+    lines.push(`- [${group.label}](https://github.com/${group.owner}/${group.repo}/pulls?q=author:${GITHUB_USERNAME}+is:merged)`);
 
     for (const pr of group.prs) {
       lines.push(`  - ${getStatusEmoji(pr)} ${pr.title} [#${pr.number}](${pr.html_url})`);
