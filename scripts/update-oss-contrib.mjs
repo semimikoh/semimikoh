@@ -18,17 +18,16 @@ const excludes = new Set([
   "nodejs/node#62303",
 ]);
 
+// merged_at은 없지만 체리픽 등으로 실제 반영된 PR
+const backports = new Set([
+  "nodejs/node#62621",
+]);
+
 const headers = (token) => ({
   Authorization: `Bearer ${token}`,
   Accept: "application/vnd.github+json",
   "User-Agent": "semi-koh-readme-updater",
 });
-
-function getStatusEmoji(pr) {
-  if (pr.pull_request?.merged_at ?? pr.merged_at) return "✅";
-  if (pr.state === "closed") return "❌";
-  return "🔄";
-}
 
 async function fetchPRsForRepo(owner, repo, token) {
   const prs = [];
@@ -61,7 +60,9 @@ function buildSection(grouped) {
     lines.push(`- [${group.label}](https://github.com/${group.owner}/${group.repo}/pulls?q=author:${GITHUB_USERNAME}+is:merged)`);
 
     for (const pr of group.prs) {
-      lines.push(`  - ${getStatusEmoji(pr)} ${pr.title} [#${pr.number}](${pr.html_url})`);
+      const title = pr.title.replace(/\s+/g, " ").trim();
+      const suffix = backports.has(`${group.owner}/${group.repo}#${pr.number}`) ? " (backport)" : "";
+      lines.push(`  - ${title} [#${pr.number}](${pr.html_url})${suffix}`);
     }
 
     lines.push("");
@@ -82,7 +83,7 @@ async function main() {
     const allPrs = await fetchPRsForRepo(owner, repo, token);
     const prs = allPrs
       .filter((pr) => !excludes.has(`${owner}/${repo}#${pr.number}`))
-      .filter((pr) => pr.pull_request?.merged_at ?? pr.merged_at);
+      .filter((pr) => (pr.pull_request?.merged_at ?? pr.merged_at) || backports.has(`${owner}/${repo}#${pr.number}`));
     if (prs.length === 0) continue;
 
     // 오래된 PR이 먼저 오도록 정렬
