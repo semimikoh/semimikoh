@@ -6,10 +6,10 @@ const GITHUB_USERNAME = "semimikoh";
 // 여기에 레포만 등록하면 자동으로 PR을 검색합니다
 const repos = [
   { label: "Node.js", owner: "nodejs", repo: "node" },
+  { label: "Vite", owner: "vitejs", repo: "vite" },
   { label: "Mantine", owner: "mantinedev", repo: "mantine" },
   { label: "TanStack Query", owner: "TanStack", repo: "query" },
   { label: "Tiptap", owner: "ueberdosis", repo: "tiptap" },
-  { label: "Vite", owner: "vitejs", repo: "vite" },
 ];
 
 // 제외할 PR 번호 (owner/repo#number)
