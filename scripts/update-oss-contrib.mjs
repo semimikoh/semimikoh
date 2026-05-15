@@ -85,8 +85,8 @@ async function main() {
       .filter((pr) => (pr.pull_request?.merged_at ?? pr.merged_at) || backports.has(`${owner}/${repo}#${pr.number}`));
     if (prs.length === 0) continue;
 
-    // 오래된 PR이 먼저 오도록 정렬
-    prs.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+    // 최신 PR이 먼저 오도록 정렬
+    prs.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
 
     grouped.push({ label, owner, repo, prs });
   }
