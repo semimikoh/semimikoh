@@ -10,7 +10,6 @@ const repos = [
   { label: "TanStack Query", owner: "TanStack", repo: "query" },
   { label: "Tiptap", owner: "ueberdosis", repo: "tiptap" },
   { label: "Vite", owner: "vitejs", repo: "vite" },
-  { label: "Slate.js", owner: "ianstormtaylor", repo: "slate" },
 ];
 
 // 제외할 PR 번호 (owner/repo#number)

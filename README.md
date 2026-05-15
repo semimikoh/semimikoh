@@ -31,7 +31,4 @@ I'm Semi Koh, a frontend developer.
   - fix: skip fallback sourcemap generation for `?raw` imports [#22148](https://github.com/vitejs/vite/pull/22148)
   - fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
   - fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
-
-- [Slate.js](https://github.com/ianstormtaylor/slate/pulls?q=author:semimikoh+is:merged)
-  - fix(slate-react): update slate-dom peer dependency to 0.119.0 [#5976](https://github.com/ianstormtaylor/slate/pull/5976)
 <!-- OSS_CONTRIB_END -->
