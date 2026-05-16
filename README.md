@@ -16,6 +16,7 @@ I'm Semi Koh, a frontend developer.
   - benchmark: fix incorrect base64 input in byteLength benchmark [#60841](https://github.com/nodejs/node/pull/60841)
 
 - [Vite](https://github.com/vitejs/vite/pulls?q=author:semimikoh+is:merged)
+  - fix(optimizer): pass oxc jsx options to transformSync in dependency scan [#22342](https://github.com/vitejs/vite/pull/22342)
   - fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
   - fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
   - fix: skip fallback sourcemap generation for `?raw` imports [#22148](https://github.com/vitejs/vite/pull/22148)
