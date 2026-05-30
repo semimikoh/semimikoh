@@ -3,10 +3,22 @@ import fs from "node:fs/promises";
 const README_PATH = "README.md";
 const GITHUB_USERNAME = "semimikoh";
 
+// Vite는 #22393(미머지) + rollup#2002 nesting 때문에 자동 검색 대신 여기서 수기 관리.
+// 새 Vite PR이 머지되면 이 블록에 직접 한 줄 추가하면 됩니다.
+const VITE_MANUAL = `- [Vite](https://github.com/vitejs/vite/pulls?q=author:semimikoh+is:merged)
+  - <details><summary>feat(css): emit named exports for JS keyword class names in CSS modules <a href="https://github.com/vitejs/vite/pull/22393">#22393</a></summary>
+
+    - feat(pluginutils): named exports for reserved-word keys + fix duplicate default export in dataToEsm [#2002](https://github.com/rollup/plugins/pull/2002)
+    </details>
+  - fix(optimizer): pass oxc jsx options to transformSync in dependency scan [#22342](https://github.com/vitejs/vite/pull/22342)
+  - fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
+  - fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
+  - fix: skip fallback sourcemap generation for \`?raw\` imports [#22148](https://github.com/vitejs/vite/pull/22148)`;
+
 // 여기에 레포만 등록하면 자동으로 PR을 검색합니다
 const repos = [
   { label: "Node.js", owner: "nodejs", repo: "node" },
-  { label: "Vite", owner: "vitejs", repo: "vite" },
+  { label: "Vite", owner: "vitejs", repo: "vite", manual: VITE_MANUAL },
   { label: "Mantine", owner: "mantinedev", repo: "mantine" },
   { label: "TanStack Query", owner: "TanStack", repo: "query" },
   { label: "Tiptap", owner: "ueberdosis", repo: "tiptap" },
@@ -56,6 +68,11 @@ function buildSection(grouped) {
   const lines = [];
 
   for (const group of grouped) {
+    if (group.manual) {
+      lines.push(group.manual, "");
+      continue;
+    }
+
     lines.push(`- [${group.label}](https://github.com/${group.owner}/${group.repo}/pulls?q=author:${GITHUB_USERNAME}+is:merged)`);
 
     for (const pr of group.prs) {
@@ -78,7 +95,13 @@ async function main() {
 
   const grouped = [];
 
-  for (const { label, owner, repo } of repos) {
+  for (const { label, owner, repo, manual } of repos) {
+    // 수기 관리 그룹(Vite)은 자동 검색하지 않고 고정 블록을 순서대로 끼워 넣음
+    if (manual) {
+      grouped.push({ label, owner, repo, manual });
+      continue;
+    }
+
     const allPrs = await fetchPRsForRepo(owner, repo, token);
     const prs = allPrs
       .filter((pr) => !excludes.has(`${owner}/${repo}#${pr.number}`))

@@ -16,6 +16,10 @@ I'm Semi Koh, a frontend developer.
   - benchmark: fix incorrect base64 input in byteLength benchmark [#60841](https://github.com/nodejs/node/pull/60841)
 
 - [Vite](https://github.com/vitejs/vite/pulls?q=author:semimikoh+is:merged)
+  - <details><summary>feat(css): emit named exports for JS keyword class names in CSS modules <a href="https://github.com/vitejs/vite/pull/22393">#22393</a></summary>
+
+    - feat(pluginutils): named exports for reserved-word keys + fix duplicate default export in dataToEsm [#2002](https://github.com/rollup/plugins/pull/2002)
+    </details>
   - fix(optimizer): pass oxc jsx options to transformSync in dependency scan [#22342](https://github.com/vitejs/vite/pull/22342)
   - fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
   - fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
