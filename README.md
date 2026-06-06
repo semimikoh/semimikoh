@@ -9,6 +9,7 @@ I'm Semi Koh, a frontend developer.
 
 <!-- OSS_CONTRIB_START -->
 - [Node.js](https://github.com/nodejs/node/pulls?q=author:semimikoh+is:merged)
+  - http: close pre-request sockets in closeIdleConnections [#63470](https://github.com/nodejs/node/pull/63470)
   - ffi: prevent premature GC of DynamicLibrary [#63024](https://github.com/nodejs/node/pull/63024)
   - src: fix crash in GetErrorSource() for invalid using syntax [#62770](https://github.com/nodejs/node/pull/62770)
   - doc,src,test: fix dead inspector help URL [#62745](https://github.com/nodejs/node/pull/62745)
