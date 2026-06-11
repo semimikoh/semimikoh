@@ -27,6 +27,7 @@ I'm Semi Koh, a frontend developer.
   - fix: skip fallback sourcemap generation for `?raw` imports [#22148](https://github.com/vitejs/vite/pull/22148)
 
 - [Mantine](https://github.com/mantinedev/mantine/pulls?q=author:semimikoh+is:merged)
+  - [@mantine/core] PasswordInput: Fix sections misplaced when `dir` overrides parent direction [#8936](https://github.com/mantinedev/mantine/pull/8936)
   - [@mantine/core] Input: Fix sections misplaced when `dir` overrides parent direction (#8903) [#8905](https://github.com/mantinedev/mantine/pull/8905)
   - [@mantine/core] ScrollArea: Fix scrollbar never visible with offsetScrollbars="present" [#8844](https://github.com/mantinedev/mantine/pull/8844)
   - [@mantine/core] Fix SemiCircleProgress not being displayed [#8842](https://github.com/mantinedev/mantine/pull/8842)
