@@ -6,10 +6,8 @@ const GITHUB_USERNAME = "semimikoh";
 // Vite는 #22393(미머지) + rollup#2002 nesting 때문에 자동 검색 대신 여기서 수기 관리.
 // 새 Vite PR이 머지되면 이 블록에 직접 한 줄 추가하면 됩니다.
 const VITE_MANUAL = `- [Vite](https://github.com/vitejs/vite/pulls?q=author:semimikoh+is:merged)
-  - <details><summary>feat(css): emit named exports for JS keyword class names in CSS modules <a href="https://github.com/vitejs/vite/pull/22393">#22393</a></summary>
-
+  - feat(css): emit named exports for JS keyword class names in CSS modules [#22393](https://github.com/vitejs/vite/pull/22393)
     - feat(pluginutils): named exports for reserved-word keys + fix duplicate default export in dataToEsm [#2002](https://github.com/rollup/plugins/pull/2002)
-    </details>
   - fix(optimizer): pass oxc jsx options to transformSync in dependency scan [#22342](https://github.com/vitejs/vite/pull/22342)
   - fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
   - fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
@@ -22,6 +20,7 @@ const repos = [
   { label: "Mantine", owner: "mantinedev", repo: "mantine" },
   { label: "TanStack Query", owner: "TanStack", repo: "query" },
   { label: "Tiptap", owner: "ueberdosis", repo: "tiptap" },
+  { label: "waffleBase", owner: "wafflebase", repo: "wafflebase" },
 ];
 
 // 제외할 PR 번호 (owner/repo#number)
