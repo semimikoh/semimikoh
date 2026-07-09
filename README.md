@@ -32,6 +32,7 @@ I'm Semi Koh, a frontend developer.
   - [@mantine/tiptap] RichTextEditor: Fix invisible caret in empty task list items (#8819) [#8821](https://github.com/mantinedev/mantine/pull/8821)
   - [@docs] add Scroller styles API data [#8818](https://github.com/mantinedev/mantine/pull/8818)
   - [@mantine/form] Fix missing TS suggestions for path in clearFieldError, resetField, clearFieldDirty [#8810](https://github.com/mantinedev/mantine/pull/8810)
+  - [@mantine/mcp-server] Fix stdio transport to comply with MCP spec [#8792](https://github.com/mantinedev/mantine/pull/8792)
   - [@mantine/core] Badge: Fix circle prop with defaultProps.radius [#8466](https://github.com/mantinedev/mantine/pull/8466)
 
 - [TanStack Query](https://github.com/TanStack/query/pulls?q=author:semimikoh+is:merged)
