@@ -41,6 +41,8 @@ I'm Semi Koh, a frontend developer.
   - fix(query-core): clear timers when timer ID is 0 [#10401](https://github.com/TanStack/query/pull/10401)
 
 - [waffleBase](https://github.com/wafflebase/wafflebase/pulls?q=author:semimikoh+is:merged)
+  - Nest a pasted table into the table cell the caret is in (issue #528) [#531](https://github.com/wafflebase/wafflebase/pull/531)
+  - Underline composing (uncommitted) IME text in Docs (issue #342) [#514](https://github.com/wafflebase/wafflebase/pull/514)
   - fix: Exit the list on Backspace in an empty list item in Docs [#339](https://github.com/wafflebase/wafflebase/pull/339)
   - Docs: coalesce an IME-composed character into one undo unit [#332](https://github.com/wafflebase/wafflebase/pull/332)
   - Docs: Add design note: local caret anchoring (issue #237) [#257](https://github.com/wafflebase/wafflebase/pull/257)
