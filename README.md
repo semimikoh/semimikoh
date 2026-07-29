@@ -9,6 +9,7 @@ I'm Semi Koh, a frontend developer.
 
 <!-- OSS_CONTRIB_START -->
 - [Node.js](https://github.com/nodejs/node/pulls?q=author:semimikoh+is:merged)
+  - test_runner: wait for filtered suite build [#64208](https://github.com/nodejs/node/pull/64208)
   - buffer: fix Blob.stream() leaking source buffer [#63577](https://github.com/nodejs/node/pull/63577)
   - http: close pre-request sockets in closeIdleConnections [#63470](https://github.com/nodejs/node/pull/63470)
   - ffi: prevent premature GC of DynamicLibrary [#63024](https://github.com/nodejs/node/pull/63024)
