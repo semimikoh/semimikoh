@@ -1,13 +1,16 @@
 # Frontend Developer
+
 I'm Semi Koh, a frontend developer.
 
 ## Career
+
 - NHN Injeinc — Frontend Developer (2025.04 ~ Present)
 - Tmax Gaia — Frontend Developer (2023.09 ~ 2025.03)
 
-## Open Source Contributions
+<details><summary><b>Open Source Contributions</b></summary>
 
 <!-- OSS_CONTRIB_START -->
+
 - [Node.js](https://github.com/nodejs/node/pulls?q=author:semimikoh+is:merged)
   - test_runner: wait for filtered suite build [#64208](https://github.com/nodejs/node/pull/64208)
   - buffer: fix Blob.stream() leaking source buffer [#63577](https://github.com/nodejs/node/pull/63577)
@@ -49,3 +52,5 @@ I'm Semi Koh, a frontend developer.
   - Docs: coalesce an IME-composed character into one undo unit [#332](https://github.com/wafflebase/wafflebase/pull/332)
   - Docs: Add design note: local caret anchoring (issue #237) [#257](https://github.com/wafflebase/wafflebase/pull/257)
 <!-- OSS_CONTRIB_END -->
+
+</details>
