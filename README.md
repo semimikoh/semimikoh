@@ -10,7 +10,6 @@ I'm Semi Koh, a frontend developer.
 <details><summary><b>Open Source Contributions</b></summary>
 
 <!-- OSS_CONTRIB_START -->
-
 - [Node.js](https://github.com/nodejs/node/pulls?q=author:semimikoh+is:merged)
   - test_runner: wait for filtered suite build [#64208](https://github.com/nodejs/node/pull/64208)
   - buffer: fix Blob.stream() leaking source buffer [#63577](https://github.com/nodejs/node/pull/63577)
@@ -45,12 +44,13 @@ I'm Semi Koh, a frontend developer.
   - fix(query-core): clear timers when timer ID is 0 [#10401](https://github.com/TanStack/query/pull/10401)
 
 - [waffleBase](https://github.com/wafflebase/wafflebase/pulls?q=author:semimikoh+is:merged)
+  - IME undo caret race against live-cursor publisher [#612](https://github.com/wafflebase/wafflebase/pull/612)
   - Extend paste-into-cell design note to cover #333 [#597](https://github.com/wafflebase/wafflebase/pull/597)
   - Nest a pasted table into the table cell the caret is in (issue #528) [#531](https://github.com/wafflebase/wafflebase/pull/531)
   - Underline composing (uncommitted) IME text in Docs (issue #342) [#514](https://github.com/wafflebase/wafflebase/pull/514)
-  - fix: Exit the list on Backspace in an empty list item in Docs [#339](https://github.com/wafflebase/wafflebase/pull/339)
-  - Docs: coalesce an IME-composed character into one undo unit [#332](https://github.com/wafflebase/wafflebase/pull/332)
-  - Docs: Add design note: local caret anchoring (issue #237) [#257](https://github.com/wafflebase/wafflebase/pull/257)
+  - Exit the list on Backspace in an empty list item in Docs [#339](https://github.com/wafflebase/wafflebase/pull/339)
+  - Coalesce an IME-composed character into one undo unit [#332](https://github.com/wafflebase/wafflebase/pull/332)
+  - Add design note: local caret anchoring (issue #237) [#257](https://github.com/wafflebase/wafflebase/pull/257)
 <!-- OSS_CONTRIB_END -->
 
 </details>
