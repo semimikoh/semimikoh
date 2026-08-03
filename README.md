@@ -20,14 +20,6 @@ I'm Semi Koh, a frontend developer.
   - [v22.x] src: clamp WriteUtf8 capacity to INT_MAX in EncodeInto [#62621](https://github.com/nodejs/node/pull/62621) (backport)
   - benchmark: fix incorrect base64 input in byteLength benchmark [#60841](https://github.com/nodejs/node/pull/60841)
 
-- [Vite](https://github.com/vitejs/vite/pulls?q=author:semimikoh+is:merged)
-  - feat(css): emit named exports for JS keyword class names in CSS modules [#22393](https://github.com/vitejs/vite/pull/22393)
-    - feat(pluginutils): named exports for reserved-word keys + fix duplicate default export in dataToEsm [#2002](https://github.com/rollup/plugins/pull/2002)
-  - fix(optimizer): pass oxc jsx options to transformSync in dependency scan [#22342](https://github.com/vitejs/vite/pull/22342)
-  - fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
-  - fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
-  - fix: skip fallback sourcemap generation for `?raw` imports [#22148](https://github.com/vitejs/vite/pull/22148)
-
 - [Mantine](https://github.com/mantinedev/mantine/pulls?q=author:semimikoh+is:merged)
   - [@mantine/core] PasswordInput: Fix sections misplaced when `dir` overrides parent direction [#8936](https://github.com/mantinedev/mantine/pull/8936)
   - [@mantine/core] Input: Fix sections misplaced when `dir` overrides parent direction (#8903) [#8905](https://github.com/mantinedev/mantine/pull/8905)
@@ -39,11 +31,8 @@ I'm Semi Koh, a frontend developer.
   - [@mantine/mcp-server] Fix stdio transport to comply with MCP spec [#8792](https://github.com/mantinedev/mantine/pull/8792)
   - [@mantine/core] Badge: Fix circle prop with defaultProps.radius [#8466](https://github.com/mantinedev/mantine/pull/8466)
 
-- [TanStack Query](https://github.com/TanStack/query/pulls?q=author:semimikoh+is:merged)
-  - fix(vue-query-devtools): only register cleanup after mount [#10439](https://github.com/TanStack/query/pull/10439)
-  - fix(query-core): clear timers when timer ID is 0 [#10401](https://github.com/TanStack/query/pull/10401)
-
 - [waffleBase](https://github.com/wafflebase/wafflebase/pulls?q=author:semimikoh+is:merged)
+  - Implement relative font-size stepping over mixed selection [#616](https://github.com/wafflebase/wafflebase/pull/616)
   - IME undo caret race against live-cursor publisher [#612](https://github.com/wafflebase/wafflebase/pull/612)
   - Extend paste-into-cell design note to cover #333 [#597](https://github.com/wafflebase/wafflebase/pull/597)
   - Nest a pasted table into the table cell the caret is in (issue #528) [#531](https://github.com/wafflebase/wafflebase/pull/531)
@@ -51,6 +40,23 @@ I'm Semi Koh, a frontend developer.
   - Exit the list on Backspace in an empty list item in Docs [#339](https://github.com/wafflebase/wafflebase/pull/339)
   - Coalesce an IME-composed character into one undo unit [#332](https://github.com/wafflebase/wafflebase/pull/332)
   - Add design note: local caret anchoring (issue #237) [#257](https://github.com/wafflebase/wafflebase/pull/257)
+
+- [Vite](https://github.com/vitejs/vite/pulls?q=author:semimikoh+is:merged)
+  - feat(css): emit named exports for JS keyword class names in CSS modules [#22393](https://github.com/vitejs/vite/pull/22393)
+    - feat(pluginutils): named exports for reserved-word keys + fix duplicate default export in dataToEsm [#2002](https://github.com/rollup/plugins/pull/2002)
+  - fix(optimizer): pass oxc jsx options to transformSync in dependency scan [#22342](https://github.com/vitejs/vite/pull/22342)
+  - fix(optimizer): allow user transform.target to override default in optimizeDeps [#22273](https://github.com/vitejs/vite/pull/22273)
+  - fix: detect Deno workspace root (fix #22237) [#22238](https://github.com/vitejs/vite/pull/22238)
+  - fix: skip fallback sourcemap generation for `?raw` imports [#22148](https://github.com/vitejs/vite/pull/22148)
+
+- [Vite+](https://github.com/voidzero-dev/vite-plus/pulls?q=author:semimikoh+is:merged)
+  - feat(env): mark installed/current/default versions in `vp env list-remote` [#1907](https://github.com/voidzero-dev/vite-plus/pull/1907)
+  - fix(cli): keep absolute tsgolint path for workspace lint runs [#1758](https://github.com/voidzero-dev/vite-plus/pull/1758)
+  - feat(cli): add `format` alias for `vp fmt` [#1727](https://github.com/voidzero-dev/vite-plus/pull/1727)
+
+- [TanStack Query](https://github.com/TanStack/query/pulls?q=author:semimikoh+is:merged)
+  - fix(vue-query-devtools): only register cleanup after mount [#10439](https://github.com/TanStack/query/pull/10439)
+  - fix(query-core): clear timers when timer ID is 0 [#10401](https://github.com/TanStack/query/pull/10401)
 <!-- OSS_CONTRIB_END -->
 
 </details>

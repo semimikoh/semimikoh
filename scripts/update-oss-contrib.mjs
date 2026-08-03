@@ -14,13 +14,15 @@ const VITE_MANUAL = `- [Vite](https://github.com/vitejs/vite/pulls?q=author:semi
   - fix: skip fallback sourcemap generation for \`?raw\` imports [#22148](https://github.com/vitejs/vite/pull/22148)`;
 
 // 여기에 레포만 등록하면 자동으로 PR을 검색합니다
+// 순서는 머지된 PR 개수 내림차순으로 유지 (개수가 바뀌면 이 배열 순서도 같이 조정할 것)
 const repos = [
   { label: "Node.js", owner: "nodejs", repo: "node" },
-  { label: "Vite", owner: "vitejs", repo: "vite", manual: VITE_MANUAL },
   { label: "Mantine", owner: "mantinedev", repo: "mantine" },
+  { label: "waffleBase", owner: "wafflebase", repo: "wafflebase" },
+  { label: "Vite", owner: "vitejs", repo: "vite", manual: VITE_MANUAL },
+  { label: "Vite+", owner: "voidzero-dev", repo: "vite-plus" },
   { label: "TanStack Query", owner: "TanStack", repo: "query" },
   { label: "Tiptap", owner: "ueberdosis", repo: "tiptap" },
-  { label: "waffleBase", owner: "wafflebase", repo: "wafflebase" },
 ];
 
 // 제외할 PR 번호 (owner/repo#number)
