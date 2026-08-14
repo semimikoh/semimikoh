@@ -33,6 +33,7 @@ I'm Semi Koh, a frontend developer.
   - [@mantine/core] Badge: Fix circle prop with defaultProps.radius [#8466](https://github.com/mantinedev/mantine/pull/8466)
 
 - [waffleBase](https://github.com/wafflebase/wafflebase/pulls?q=author:semimikoh+is:merged)
+  - Add BigQuery connector: connection CRUD and query execution [#811](https://github.com/wafflebase/wafflebase/pull/811)
   - Implement relative font-size stepping over mixed selection [#616](https://github.com/wafflebase/wafflebase/pull/616)
   - IME undo caret race against live-cursor publisher [#612](https://github.com/wafflebase/wafflebase/pull/612)
   - Extend paste-into-cell design note to cover #333 [#597](https://github.com/wafflebase/wafflebase/pull/597)
