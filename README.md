@@ -14,6 +14,7 @@ I'm Semi Koh, a frontend developer.
   - test_runner: wait for filtered suite build [#64208](https://github.com/nodejs/node/pull/64208)
   - buffer: fix Blob.stream() leaking source buffer [#63577](https://github.com/nodejs/node/pull/63577)
   - http: close pre-request sockets in closeIdleConnections [#63470](https://github.com/nodejs/node/pull/63470)
+  - test_runner: match dotfiles in default coverage exclude [#63401](https://github.com/nodejs/node/pull/63401)
   - sqlite: check sqlite3_step() and sqlite3_reset() results [#63319](https://github.com/nodejs/node/pull/63319)
   - ffi: prevent premature GC of DynamicLibrary [#63024](https://github.com/nodejs/node/pull/63024)
   - src: fix crash in GetErrorSource() for invalid using syntax [#62770](https://github.com/nodejs/node/pull/62770)
