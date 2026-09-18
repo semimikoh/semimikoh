@@ -53,6 +53,7 @@ I'm Semi Koh, a frontend developer.
   - fix: skip fallback sourcemap generation for `?raw` imports [#22148](https://github.com/vitejs/vite/pull/22148)
 
 - [Vite+](https://github.com/voidzero-dev/vite-plus/pulls?q=author:semimikoh+is:merged)
+  - fix(create): remove nested monorepo lint config [#2667](https://github.com/voidzero-dev/vite-plus/pull/2667)
   - feat(pm): show download progress when fetching a package manager [#2369](https://github.com/voidzero-dev/vite-plus/pull/2369)
   - feat(env): mark installed/current/default versions in `vp env list-remote` [#1907](https://github.com/voidzero-dev/vite-plus/pull/1907)
   - fix(cli): keep absolute tsgolint path for workspace lint runs [#1758](https://github.com/voidzero-dev/vite-plus/pull/1758)
